@@ -19,7 +19,7 @@ def won?(board)
     return nil
   end
   counter = 0
-  while counter < length(WIN_COMBINATIONS)
+  while counter < WIN_COMBINATIONS.length
     combo = WIN_COMBINATIONS[counter]
     win_index_1 = combo[0]
     win_index_2 = combo[1]
