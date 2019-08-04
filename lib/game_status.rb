@@ -45,7 +45,7 @@ nested_students = [
   ["Monique", "Grade 11", "B average", "Class President"]
 ]
 
-board.each do |student_array|
+WIN_COMBINATIONS.each do |student_array|
   # #inspect returns a human-readable representation
   # of the array
   puts student_array.inspect
