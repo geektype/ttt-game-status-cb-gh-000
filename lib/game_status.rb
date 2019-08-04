@@ -41,6 +41,6 @@ nested_students = [
   ["Monique", "Grade 11", "B average", "Class President"]
 ]
 
-nested_students.each do |student|
+WIN_COMBINATIONS.each do |student|
   puts student
 end
