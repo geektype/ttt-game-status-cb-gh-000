@@ -18,22 +18,21 @@ def won?(board)
   if board == []
     return nil
   end
-  counter = 0
-  while counter < WIN_COMBINATIONS.length
-    combo = WIN_COMBINATIONS[counter]
-    win_index_1 = combo[0]
-    win_index_2 = combo[1]
-    win_index_3 = combo[3]
+  WIN_COMBINATIONS.each {|win_combo|
+    index_0 = win_combo[0]
+    index_1 = win_combo[1]
+    index_2 = win_combo[2]
 
-    board_val_1 = board[win_index_1]
-    board_val_2 = board[win_index_2]
-    board_val_3 = board[win_index_3]
+    position_1 = board[index_0]
+    position_2 = board[index_1]
+    position_3 = board[index_2]
 
-    if board_val_1 == "X" and board_val_2 == "X" and board_val_3 == "X"
-      return combo
+    if position_1 == "X" && position_2 == "X" && position_3 == "X"
+      return win_combo
+    elsif position_1 == "O" && position_2 == "O" && position_3 == "O"
+      return win_combo
     end
-    counter += 1
-  end
+  }
 end
 
 board = [" ", " ", " ", " ", " ", " ", "X", "X", "X"]
