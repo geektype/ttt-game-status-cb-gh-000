@@ -35,3 +35,4 @@ end
 
 board = [" ", " ", " ", " ", " ", " ", "X", "X", "X"]
 puts WIN_COMBINATIONS[1][2]
+puts won?(board)
