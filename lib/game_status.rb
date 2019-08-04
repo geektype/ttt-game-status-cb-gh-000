@@ -18,7 +18,7 @@ def won?(board)
   if board == []
     return nil
   end
-  for each combo in WIN_COMBINATIONS
+  for combo in WIN_COMBINATIONS
     win_index_1 = combo[0]
     win_index_2 = combo[1]
     win_index_3 = combo[3]
