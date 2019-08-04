@@ -70,7 +70,7 @@ def winner(board)
       return "X"
     else
       return "O"
-
+  end
 end
 
 board = ["X", "O", "X", "O", "X", "O", "O", "O", "O"]
