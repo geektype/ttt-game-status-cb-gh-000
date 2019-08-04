@@ -36,7 +36,7 @@ def won?(board)
   end
 end
 
-# board = [" ", " ", " ", " ", " ", " ", "X", "X", "X"]
+board = [" ", " ", " ", " ", " ", " ", "X", "X", "X"]
 # puts won?(board)
 
 nested_students = [
@@ -45,7 +45,7 @@ nested_students = [
   ["Monique", "Grade 11", "B average", "Class President"]
 ]
 
-nested_students.each do |student_array|
+board.each do |student_array|
   # #inspect returns a human-readable representation
   # of the array
   puts student_array.inspect
