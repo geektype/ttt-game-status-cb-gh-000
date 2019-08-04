@@ -33,5 +33,14 @@ def won?(board)
   return false
 end
 
+def full?(board)
+  board.each do |pos|
+    if pos == " "
+      return true
+    end
+  end
+  return false
+end
+
 board = ["O", " ", "X", " ", "X", "O", "X", " ", "O"]
-puts won?(board)
+puts full?(board)
