@@ -43,5 +43,5 @@ for combo in WIN_COMBINATIONS
   board_val_1 = board[win_index_1]
   board_val_2 = board[win_index_2]
   board_val_3 = board[win_index_3]
-  
+
 end
