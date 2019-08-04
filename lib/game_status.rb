@@ -15,9 +15,6 @@ WIN_COMBINATIONS = [
   [2,4,6]
 ]
 def won?(board)
-  if board == []
-    return nil
-  end
   for combo in WIN_COMBINATIONS
     win_index_1 = combo[0]
     win_index_2 = combo[1]
