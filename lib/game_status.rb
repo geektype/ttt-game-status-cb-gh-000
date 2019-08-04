@@ -36,5 +36,7 @@ end
 board = [" ", " ", " ", " ", " ", " ", "X", "X", "X"]
 
 for combo in WIN_COMBINATIONS
-  puts combo
+  win_index_1 = combo[0]
+  win_index_2 = combo[1]
+  win_index_3 = combo[3]
 end
