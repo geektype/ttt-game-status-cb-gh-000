@@ -64,5 +64,5 @@ def winner(board)
   puts index
 end
 
-board = ["X", "O", "X", "O", "X", "O", "O", "X", "O"]
+board = ["X", "O", "X", "O", "X", "O", "O", "O", "O"]
 puts draw?(board)
