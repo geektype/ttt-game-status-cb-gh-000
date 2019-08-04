@@ -18,6 +18,7 @@ def won?(board)
   if board == []
     return nil
   end
+  counter = 0
   for combo in WIN_COMBINATIONS
     win_index_1 = combo[0]
     win_index_2 = combo[1]
@@ -35,12 +36,3 @@ end
 
 board = [" ", " ", " ", " ", " ", " ", "X", "X", "X"]
 
-nested_students = [
-  ["Mike", "Grade 10", "A average"],
-  ["Tim", "Grade 10", "C average"],
-  ["Monique", "Grade 11", "B average", "Class President"]
-]
-
-WIN_COMBINATIONS.each do |student|
-  puts student
-end
