@@ -32,6 +32,7 @@ def won?(board)
     if board_val_1 == "X" and board_val_2 == "X" and board_val_3 == "X"
       return combo
     end
+    counter += 1
   end
 end
 
