@@ -58,5 +58,11 @@ def over?(board)
   end
 end
 
+def winner(board)
+  index = []
+  index = won?(board)
+  puts index
+end
+
 board = ["X", "O", "X", "O", "X", "O", "O", "X", "O"]
 puts draw?(board)
