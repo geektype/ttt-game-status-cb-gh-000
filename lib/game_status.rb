@@ -50,5 +50,5 @@ def draw?(board)
   end
 end
 
-board = ["O", "O", "X", "O", "X", "O", "X", "O", "O"]
+board = ["O", "O", "X", "O", "X", "O", "O", "O", "O"]
 puts won?(board)
