@@ -34,5 +34,7 @@ def won?(board)
 end
 
 board = [" ", " ", " ", " ", " ", " ", "X", "X", "X"]
-puts WIN_COMBINATIONS[1][2]
-puts won?([])
+
+for combo in WIN_COMBINATIONS
+  puts combo
+end
