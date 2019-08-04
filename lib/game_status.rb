@@ -42,5 +42,13 @@ def full?(board)
   return true
 end
 
+def draw?(board)
+  if !(won?(board)) and full?(board)
+    return true
+  else
+    return false
+  end
+end
+
 board = ["O", " ", "X", " ", "X", "O", "X", " ", "O"]
 puts full?(board)
