@@ -33,5 +33,5 @@ def won?(board)
   end
 end
 
-board = ["X", "X", "X", " ", " ", " ", " ", " ", " "]
+board = [" ", " ", " ", " ", " ", " ", "X", "X", "X"]
 puts WIN_COMBINATIONS[1][2]
