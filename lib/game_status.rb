@@ -35,13 +35,12 @@ end
 
 board = [" ", " ", " ", " ", " ", " ", "X", "X", "X"]
 
-for combo in WIN_COMBINATIONS
-  win_index_1 = combo[0]
-  win_index_2 = combo[1]
-  win_index_3 = combo[3]
+nested_students = [
+  ["Mike", "Grade 10", "A average"],
+  ["Tim", "Grade 10", "C average"],
+  ["Monique", "Grade 11", "B average", "Class President"]
+]
 
-  board_val_1 = board[win_index_1]
-  board_val_2 = board[win_index_2]
-  board_val_3 = board[win_index_3]
-
+students.each do |student|
+  puts student
 end
