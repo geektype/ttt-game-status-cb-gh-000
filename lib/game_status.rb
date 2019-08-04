@@ -50,5 +50,13 @@ def draw?(board)
   end
 end
 
+def over?(board)
+  if full?(board) or won?(board) or draw?(board)
+    return true
+  else
+    return false
+  end
+end
+
 board = ["X", "O", "X", "O", "X", "O", "O", "X", "O"]
 puts draw?(board)
