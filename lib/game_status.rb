@@ -73,7 +73,7 @@ def winner(board)
   if board[index[0]] == "O"
     return "Y"
   end
-  
+
 end
 
 board = ["X", "O", "X", "O", "X", "O", "O", "O", "O"]
